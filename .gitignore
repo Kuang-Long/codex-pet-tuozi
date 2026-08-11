@@ -1,0 +1,37 @@
+# Operating system and editor files
+.DS_Store
+._*
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.mobileprovision
+*.log
+
+# Hatch-pet production artifacts
+decoded/
+frames/
+qa/
+references/
+prompts/
+backup/
+imagegen-jobs.json
+pet_request.json
+
+# Publish only the installable pet package from final/
+final/*
+!final/package/
+final/package/*
+!final/package/tuozi/
+final/package/tuozi/*
+!final/package/tuozi/pet.json
+!final/package/tuozi/spritesheet.webp
