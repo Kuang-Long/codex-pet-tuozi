@@ -16,6 +16,7 @@
 *.p12
 *.mobileprovision
 *.log
+/dist/
 
 # Hatch-pet production artifacts
 decoded/

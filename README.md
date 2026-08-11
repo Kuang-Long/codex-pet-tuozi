@@ -98,19 +98,18 @@
 
 ## 安装
 
-下载或克隆仓库后，安装时真正需要的文件只有：
+### 从 Releases 安装（推荐）
 
-```text
-final/package/tuozi/
-├── pet.json
-└── spritesheet.webp
-```
+1. 前往 [Releases](https://github.com/Kuang-Long/codex-pet-tuozi/releases/latest) 下载最新的 `tuozi.zip`。
+2. 解压后会得到一个 `tuozi` 文件夹。
+3. 将整个 `tuozi` 文件夹复制到 `~/.codex/pets/`。
 
-在 macOS 或 Linux 上，可从仓库根目录运行：
+在 macOS 或 Linux 上，可以在下载目录中运行：
 
 ```bash
+unzip tuozi.zip
 mkdir -p ~/.codex/pets
-cp -R ./final/package/tuozi ~/.codex/pets/
+cp -R ./tuozi ~/.codex/pets/
 ```
 
 如果本机已经安装过同名宠物，请先备份原目录，再执行复制。
